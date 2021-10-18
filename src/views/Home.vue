@@ -5,16 +5,29 @@
       v-bind:style="{ backgroundImage: 'url(' + this.cover.url + ')' }"
     >
       <div class="container">
-        <h1 class="home-heading display-3 animated fadeInUp heading--stroke-shadow">Haresh Vekriya</h1>
+        <h1
+          class="
+            home-heading
+            display-3
+            animated
+            fadeInUp
+            heading--stroke-shadow
+          "
+        >
+          Haresh Vekriya
+        </h1>
 
         <p class="lead animated fadeInUp">UX/UI Designer</p>
         <p>
-          <a href="/experience" class="btn btn-outline-primary m-2">Experience</a>
+          <a href="/experience" class="btn btn-outline-primary m-2"
+            >Experience</a
+          >
           <a
-            href="https://drive.google.com/file/d/1yqg2e0DIoe9NPoNETT-d9vmuRfEaGR5O/view?usp=sharing"
+            href="https://docs.google.com/document/d/1pMYipVQCjtwLo4klINJkbKtv3lsuw2Ruch1zodPQdOo/edit?usp=sharing"
             class="btn btn-outline-primary m-2"
             target="_blank"
-          >Download CV</a>
+            >Download CV</a
+          >
         </p>
       </div>
     </section>
@@ -23,7 +36,8 @@
     <div class="container">
       <div class="bd-callout bd-callout-info mb-5">
         <p>
-          If you want to see more examples of my UI skills then please visit my profile on Dribble or Behance.
+          If you want to see more examples of my UI skills then please visit my
+          profile on Dribble or Behance.
           <br />
           <a href="https://dribbble.com/hvekriya" class="mr-4">
             <i class="fab fa-dribbble text-primary mr-1"></i>
@@ -57,16 +71,15 @@ export default {
     BlogPosts,
     MediumClaps,
     Tools,
-    DribblePosts
+    DribblePosts,
   },
   data() {
     return {
       cover: {
-        url:
-          "https://images.unsplash.com/photo-1580581764285-5b9567a3649e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&auto=format&fit=crop&w=2250&q=80"
-      }
+        url: "https://images.unsplash.com/photo-1580581764285-5b9567a3649e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjczMTc0fQ&auto=format&fit=crop&w=2250&q=80",
+      },
     };
-  }
+  },
 };
 </script>
 

@@ -23,7 +23,7 @@
             >Experience</a
           >
           <a
-            href="https://docs.google.com/document/d/1pMYipVQCjtwLo4klINJkbKtv3lsuw2Ruch1zodPQdOo/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1OnVoRHDHz7EABlju_7JxocuFv43JeBDB/view?usp=sharing"
             class="btn btn-outline-primary m-2"
             target="_blank"
             >Download CV</a

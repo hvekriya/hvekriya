@@ -1,5 +1,4 @@
-<template>
-  <div>
+
     <svg
       xmlns="http://www.w3.org/2000/svg"
       data-name="Layer 1"
@@ -398,9 +397,3 @@
         fill="#ccc"
       />
     </svg>
-  </div>
-</template>
-
-<script>
-export default {};
-</script>

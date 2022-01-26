@@ -78,8 +78,8 @@
     </div>
 
     <!-- Banner right illustration -->
-    <div class="w-full md:w-2/3 text-right float-right mt-4 sm:mt-0">
-      <HomePagellustration />
+    <div class="w-full md:w-2/3 text-right float-right">
+      <img src="~/static/HomePagellustration.svg" alt="UX Designer" />
     </div>
   </section>
 </template>

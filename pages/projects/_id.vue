@@ -165,7 +165,8 @@
         </div>
       </div>
       <!-- Project related projects -->
-      <ProjectRelatedProjects />
+      <!-- TODO -->
+      <!-- <ProjectRelatedProjects /> -->
     </div>
 
     <!-- Load not found components if no project found -->

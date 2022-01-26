@@ -1,7 +1,8 @@
 {
-  "name": "nuxtjs-tailwindcss-portfolio",
-  "version": "1.0.0",
-  "private": true,
+  "name": "haresh-vekriya",
+  "version": "1.2.0",
+  "description": "My person website managed in Prismic and built using Vue",
+  "author": "hvekriya",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

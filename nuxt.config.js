@@ -46,8 +46,28 @@ export default {
     "@nuxtjs/prismic",
     // Doc: https://github.com/nuxt-community/style-resources-module
     "@nuxtjs/style-resources",
-    "@nuxtjs/axios"
+    "@nuxtjs/axios",
+    "nuxt-password-protect"
   ],
+
+  // Password protection
+  passwordProtect: {
+    enabled: true,
+    formPath: '/password',
+    password: process.env.VUE_APP_PASSWORD,
+    tokenSeed: 101010,
+    queryString: '_pw',
+    cookieName: '_password',
+    cookie: {
+      prefix: '',
+      expires: 5
+    },
+    ignoredPaths: ['/' ,'/contact', '/about', '/projects']
+  },
+
+  router: {
+    middleware: ['password-protect']
+  },
 
   /*
   ** Style resources
